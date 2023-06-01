@@ -52,6 +52,7 @@ export const ModalPhoto = ({ isModal, onClose, photoURL, alt }) => {
 
 ModalPhoto.propTypes = {
   isModal: PropTypes.bool.isRequired,
+  onClose: PropTypes.func.isRequired,
   photoURL: PropTypes.string,
   alt: PropTypes.string,
 };

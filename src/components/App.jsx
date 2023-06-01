@@ -37,7 +37,7 @@ export class App extends Component {
       if (value === this.state.searchValue) {
         return;
       }
-      this.setState({ searchValue: value, gallery: [] });
+      this.setState({ searchValue: value, gallery: [], page: 1});
     } catch (err) {}
   };
 
